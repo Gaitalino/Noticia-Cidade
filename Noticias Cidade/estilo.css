@@ -1,48 +1,140 @@
 body{
-	font-size: 16px;
-	font-family: Helvética, sans-serif;
+	font-family: Hevética, sans-serif;
+}
+.content{
+	width: 970px;
+	margin: auto;
+
 }
 .clear{
-	clear: both;
+	clear: both;	
 }
-.container{
-	width: 900px;
-	margin: auto;
-}
+
+
+/*Inicio do menu***********************************************************************************/
 #cabecalho{
 	background-image: url('imagens/fundo.png');
-	height: 233px;
+	
 }
 #menu{
 	background-image: url('imagens/detalhe-topo.png');
 	background-repeat: no-repeat;
-	background-position: right top;
-	overflow: hidden;
+	background-position: top right;
+	height: 233px;
 }
-#navegacao{
-	padding-top: 5px;
+#menu ul{
+	padding: 0	
 }
-#navegacao ul{
-
-	padding: 0; 
-
-}
-#navegacao ul li{
+#menu ul li{
 	float: left;
 	list-style: none;
-	padding: 0;
-	margin: 0;
+	margin-top: 20px;
 }
-#navegacao a:hover{
-	background-color: #E43C52;
-	
-}
-#navegacao a{
+#menu a{
 	text-decoration: none;
 	font-weight: bold;
 	color: #FFF;
-	background-color: #A02132;
-	padding: 20px 25px;
-	margin: 0;
+	padding: 20px 24px;
+	background-color: darkred;
 }
+#menu .selecionado{
+	background-color: pink;
+}
+#menu a:hover{
+	background-color: red;
+}
+/*Término do menu***********************************************************************************/
+
+
+
+
+/*Classes gerais***********************************************************************************/
+.fundo-caixa{
+	background-image: url('imagens/fundo-caixa.png');
+}
+
+.sidebar{
+	width: 220px;
+	margin-right: 20px;
+	float: left;
+}
+.sidebar-conteudo{
+	width: 200px;
+	margin: auto;
+	padding:  10px;
+}
+.sidebar-conteudo h2{
+	background-color: #0B3861;
+	margin: 0;
+	color: #FFF;
+	padding: 5px;
+}
+.sidebar-conteudo ul{
+	background-color: #FFF;
+}
+.sidebar form{
+	background-color: #FFF;
+	margin-top: 10px;
+	padding-top: 10px;
+	font-size: 1.2em;
+}
+
+
+.painel{
+	width: 350px;
+	margin-right: 10px;
+	float: left;
+}
+.painel-conteudo{
+	width: 330px;
+	margin: auto;
+	padding:  10px;
+}
+.painel-conteudo h2{
+	background-color: #0B3861;
+	margin: 0;
+	color: #FFF;
+	padding: 5px;
+}
+.painel-conteudo h3{
+	background-color: darkred;
+	padding: 5px;
+}
+.painel-conteudo p{
+	background-color: #FFF;
+	padding: 5px;
+}
+/*Fim Classes gerais***********************************************************************************/
+
+
+#painel{
+	margin-top: 20px;
+}
+
+#entrevista ul{
+	list-style: none;
+	padding: 10px;
+}
+#entrevista li{
+	padding: 20px 0;
+}
+#entrevista a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px;
+	font-size: 1.2em
+}
+#entrevista a:hover{
+	text-decoration: underline;
+}
+#news input[type="text"]{
+	height: 30px;
+}
+#news input[type="submit"]{
+	padding: 10px 20px;
+	background-color: darkred;
+	font-size: 20px;	
+	color: #FFF;
+}
+
 

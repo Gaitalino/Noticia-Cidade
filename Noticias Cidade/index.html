@@ -5,37 +5,98 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="estilo.css">
 	</head>
-	<body>	
+	<body>
 		<header id="cabecalho">
-			<div id="menu" class="container">
-				<h1 id="logo"><img src="imagens/logo.png"></h1>
-				<nav id="navegacao">
+			<div id="menu" class="content">
+				<h1><img src="imagens/logo.png"></h1>
+				<nav>
 					<ul>
-						<li><a href="">Home</a></li>
+						<li ><a class="selecionado" href="">Home</a></li>
 						<li><a href="">Brasil</a></li>
 						<li><a href="">Internacional</a></li>
 						<li><a href="">Economia</a></li>
 						<li><a href="">Saúde</a></li>
-						<li><a href="">Ciência</a></li>
+						<li><a href="">Ciências</a></li>
 						<li><a href="">Fotos</a></li>
-						<div class="clear"></div>
+
 					</ul>
+
 				</nav>
-
 			</div>
-
-			
-
 		</header>
 
+		<section id="painel" class="content">
 
-		<div class="container">
-			<div class="content">
-				
+			<div class="sidebar">
+				<div id="entrevista" class=" fundo-caixa">
+					<div class="sidebar-conteudo">
+						<h2>Entrevistas</h2>
+						<nav>
+							<ul>
+								<li><a href="">José Almeida</a></li>
+								<li><a href="">Felipe Silva</a></li>
+								<li><a href="">Renato Rodrigues</a></li>
+								<li><a href="">Abelardo Silveira</a></li>
+								<li><a href="">André Carlos</a></li>
+								<li><a href="">Márcio Mello</a></li>
+								<li><a href="">João Pedro</a></li>
+								<li><a href="">Fernando Weiss</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+
+				<div id="news" class="sidebar fundo-caixa ">
+					<div class="sidebar-conteudo">
+						<h2>News</h2>
+						<form>
+							<legend>Email:</legend>
+							<input type="text" name="email" placeholder="Email">
+							<input type="submit" value="Cadastrar">
+						</form>
+					</div>
+				</div>
 			</div>
-			<footer id="rodape">
-				
-			</footer>
-		</div>
+			
+
+			<div id="ultima-entrevista" class="painel fundo-caixa">
+				<div class="painel-conteudo">
+					<h2>Última entrevista</h2>
+					<h3>Entrevista com Felipe Silva</h3>
+					<img src="imagens/doutor.jpg" width="330">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br><a href="">Leia mais</a></p>
+				</div>
+			</div>
+
+			<div id="destaque" class="painel fundo-caixa">
+				<div class="painel-conteudo">
+					<h2>Destaque</h2>
+					<h3>Nova Legislação</h3>
+					<img src="imagens/taxi.jpg" width="330">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br><a href="">Leia mais</a></p>
+				</div>
+			</div>
+
+
+			<div id="destaque" class="painel fundo-caixa">
+				<div class="painel-conteudo">
+					<h2>Destaque</h2>
+					<h3>Nova Legislação</h3>
+					<img src="imagens/taxi.jpg" width="330">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br><a href="">Leia mais</a></p>
+				</div>
+			</div>
+
+			<div id="destaque" class="painel fundo-caixa">
+				<div class="painel-conteudo">
+					<h2>Destaque</h2>
+					<h3>Nova Legislação</h3>
+					<img src="imagens/taxi.jpg" width="330">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br><a href="">Leia mais</a></p>
+				</div>
+			</div>
+		</section>
+
+
 	</body>
 </html>
